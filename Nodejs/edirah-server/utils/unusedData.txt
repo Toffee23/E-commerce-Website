@@ -1,0 +1,36 @@
+   accessories: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Accessories",
+      },
+      underwear_and_socks: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Underwear",
+      },
+      sports: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Sports",
+      },
+      designer: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Designer",
+      },
+      gifts: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Gifts",
+      },
+      care: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Care",
+      },
+       shoes: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Shoes",
+      },
+      clothing: {
+        type: mongoose.Schema.ObjectId,
+        ref: "Clothing",
+        required: true,
+      },
+
+mongoose.Schema.Types.Embedded
+
