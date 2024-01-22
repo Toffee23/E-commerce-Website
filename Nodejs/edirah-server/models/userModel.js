@@ -3,9 +3,11 @@ const validator = require("validator");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 
+
+
 const AddressSchema = {
   street: { type: String },
-  number: { tyoe: String },
+  number: { type: String },
   postcode: { type: String },
   state: { type: String },
   country: { type: String },

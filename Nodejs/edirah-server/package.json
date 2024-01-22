@@ -32,6 +32,8 @@
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/validator": "^13.11.8",
     "nodemon": "^2.0.9"
   },
   "engines": {
